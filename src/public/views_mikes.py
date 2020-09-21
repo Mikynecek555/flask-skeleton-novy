@@ -29,7 +29,7 @@ def Formular_mikes():
 @blueprint.route('/advancedform',methods=['GET','POST'])
 def formular():
     form = advancedform()
-    if form.validate_csrf_data():
+    if form.validate_on_submit():
         if form.oo.data == 1 and form.obrazec.data == 1:
             return str(form.a.data*form.a.data)
         if form.oo.data == 1 and form.obrazec.data == 2:
