@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b2ee042-b265-41ba-98db-4e5bce62334a" name="Default Changelist" comment="" />
+    <list default="true" id="9b2ee042-b265-41ba-98db-4e5bce62334a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/views_mikes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/views_mikes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/macros/fields.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/macros/fields.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/public/advancedform.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/public/advancedform.tmpl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +73,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600675925219</updated>
-      <workItem from="1600675932277" duration="7122000" />
+      <workItem from="1600675932277" duration="7429000" />
+      <workItem from="1600757708672" duration="624000" />
+      <workItem from="1600759693800" duration="233000" />
     </task>
     <servers />
   </component>
@@ -87,22 +95,22 @@
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="743" y="298" width="426" height="483" key="FileChooserDialogImpl/0.28.1920.1024@0.28.1920.1024" timestamp="1600676035722" />
-    <state width="1352" height="255" key="GridCell.Tab.0.bottom" timestamp="1600682990243">
+    <state width="1352" height="255" key="GridCell.Tab.0.bottom" timestamp="1600758331731">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state width="1352" height="255" key="GridCell.Tab.0.bottom/0.28.1920.1024@0.28.1920.1024" timestamp="1600682990243" />
-    <state width="1352" height="255" key="GridCell.Tab.0.center" timestamp="1600682990243">
+    <state width="1352" height="255" key="GridCell.Tab.0.bottom/0.28.1920.1024@0.28.1920.1024" timestamp="1600758331731" />
+    <state width="1352" height="255" key="GridCell.Tab.0.center" timestamp="1600758331731">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state width="1352" height="255" key="GridCell.Tab.0.center/0.28.1920.1024@0.28.1920.1024" timestamp="1600682990243" />
-    <state width="1352" height="255" key="GridCell.Tab.0.left" timestamp="1600682990242">
+    <state width="1352" height="255" key="GridCell.Tab.0.center/0.28.1920.1024@0.28.1920.1024" timestamp="1600758331731" />
+    <state width="1352" height="255" key="GridCell.Tab.0.left" timestamp="1600758331730">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state width="1352" height="255" key="GridCell.Tab.0.left/0.28.1920.1024@0.28.1920.1024" timestamp="1600682990242" />
-    <state width="1352" height="255" key="GridCell.Tab.0.right" timestamp="1600682990243">
+    <state width="1352" height="255" key="GridCell.Tab.0.left/0.28.1920.1024@0.28.1920.1024" timestamp="1600758331730" />
+    <state width="1352" height="255" key="GridCell.Tab.0.right" timestamp="1600758331731">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state width="1352" height="255" key="GridCell.Tab.0.right/0.28.1920.1024@0.28.1920.1024" timestamp="1600682990243" />
+    <state width="1352" height="255" key="GridCell.Tab.0.right/0.28.1920.1024@0.28.1920.1024" timestamp="1600758331731" />
     <state x="449" y="175" key="SettingsEditor" timestamp="1600678640728">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
@@ -111,12 +119,12 @@
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="555" y="276" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1920.1024@0.28.1920.1024" timestamp="1600682557477" />
-    <state x="616" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1600675932355">
+    <state x="616" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1600759717707">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state x="616" y="367" key="com.intellij.ide.util.TipDialog/0.28.1920.1024@0.28.1920.1024" timestamp="1600675932355" />
+    <state x="616" y="367" key="com.intellij.ide.util.TipDialog/0.28.1920.1024@0.28.1920.1024" timestamp="1600759717707" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_skeleton_novy$flask_skeleton_novy.coverage" NAME="flask-skeleton-novy Coverage Results" MODIFIED="1600682990232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_skeleton_novy$flask_skeleton_novy.coverage" NAME="flask-skeleton-novy Coverage Results" MODIFIED="1600758331713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

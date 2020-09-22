@@ -53,5 +53,5 @@ class advancedform(Form):
                                                 InputRequired(message="vyzadovano")])
         c = FloatField("Strana c:", validators=[NumberRange(min=0, message="Hodnota vetsi nez 0"),
                                                 InputRequired(message="vyzadovano")])
-        oo= SelectField("Typ vypoctu", choices=[(1, "obvod"), (2, "obsah")], default=1)
+        oo= SelectField("Typ vypoctu", choices=[(1, "Obvod"), (2, "Obsah")], default=1)
         obrazec= SelectField("Typ vypoctu", choices=[(1, "Ctverec a"), (2, "Obdelnik ab"), (3, "Trojuhelnik abc")], default=1)
