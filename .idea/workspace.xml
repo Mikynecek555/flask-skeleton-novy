@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b2ee042-b265-41ba-98db-4e5bce62334a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/templates/public/graf.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/views_mikes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/views_mikes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/public/advancedform.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/public/advancedform.tmpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/templates/public" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -83,12 +82,16 @@
       <workItem from="1600757708672" duration="624000" />
       <workItem from="1600759693800" duration="738000" />
       <workItem from="1600762719702" duration="515000" />
-      <workItem from="1601363334237" duration="1419000" />
+      <workItem from="1601363334237" duration="4010000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added string into forms.py (&quot;&quot;). Added octoform" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added string into forms.py (&quot;&quot;). Added octoform" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600676041530">
@@ -147,10 +150,10 @@
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="449" y="175" key="SettingsEditor/0.28.1920.1024@0.28.1920.1024" timestamp="1600678640728" />
-    <state x="555" y="276" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1601364837375">
+    <state x="555" y="276" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1601367385348">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state x="555" y="276" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1920.1024@0.28.1920.1024" timestamp="1601364837375" />
+    <state x="555" y="276" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1920.1024@0.28.1920.1024" timestamp="1601367385348" />
     <state x="616" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1600762731128">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
