@@ -53,5 +53,10 @@ class advancedform(Form):
                                                 InputRequired(message="vyzadovano")])
         c = FloatField("Strana c:", validators=[NumberRange(min=0, message="Hodnota vetsi nez 0"),
                                                 InputRequired(message="vyzadovano")])
-        oo= SelectField("Typ vypoctu", choices=[(1, "Obvod"), (2, "Obsah")], default=1)
-        obrazec= SelectField("Typ vypoctu", choices=[(1, "Ctverec a"), (2, "Obdelnik ab"), (3, "Trojuhelnik abc")], default=1)
+        oo= SelectField("Typ vypoctu", choices=[("1", "Obvod"), ("2", "Obsah")], default="3")
+        obrazec= SelectField("Typ vypoctu", choices=[("1", "Ctverec a"), ("2", "Obdelnik ab"), ("3", "Trojuhelnik abc")], default="1")
+class octoform(Form):
+        a = FloatField("Strana a:", validators=[InputRequired(message="vyzadovano")])
+        b = FloatField("Strana b:", validators=[InputRequired(message="vyzadovano")])
+        obrazec = SelectField("Typ vypoctu", choices=[("1", "Ctverec a"), ("2", "Obdelnik ab"), (3, "Trojuhelnik abc")], default="1",
+                              validators=[InputRequired(message="vyzadovano")])
